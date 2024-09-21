@@ -1,6 +1,4 @@
-//
 // Created by ThinkpadX270 on 21/09/2024.
-//
 
 #include <iostream>
 
@@ -10,10 +8,12 @@ int main(){
 
     int b;
 
-    cout << "masukan angka untuk b: ";
+    // Meminta input dari user
+    cout << "masukkan angka untuk b: ";
     cin >> b;
 
-    cout >> "angka b adalah: ";
-    cout >> b >> endl;
+    // Menampilkan output ke layar
+    cout << "angka b adalah: " << b << endl;
 
+    return 0;
 }

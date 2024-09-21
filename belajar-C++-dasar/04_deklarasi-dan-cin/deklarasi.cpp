@@ -5,7 +5,7 @@
 
 using namespace std;
 
-int main(){
+int main-satu(){
 
     int a;
 
@@ -14,18 +14,5 @@ int main(){
     cout << a << endl;
     std::cout << a << std::endl;
     std::cin.get();
-
-    int b;
-
-    cout << "masukan nilai b: ";
-    cin >> b;
-
-    cout << "nilai b adalah: ";
-    cout << b << endl;
-
-
-
-
     return 0;
-
 }
